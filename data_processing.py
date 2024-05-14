@@ -17,10 +17,3 @@ print(data_cleaned['age'].isnull().sum())
 selected_data = data_cleaned[['gender', 'age', 'dec']]
 print(selected_data.info())
 print(selected_data.isnull().sum())
-
-# Selecting needed data (dec column represents  match)
-selected_data = data_cleaned[['gender', 'age', 'dec']]
-print(selected_data.info())
-print(selected_data.isnull().sum())
-
-
